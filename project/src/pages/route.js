@@ -14,7 +14,7 @@ import ContactUs from "./ContactUs";
 
 function Index() {
   return (
-    <BrowserRouter basename="/">
+    <BrowserRouter>
       <div className="page-wraper">
         <Header />
         <Routes>
